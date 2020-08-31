@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-Do List</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script type="text/javascript" src="./myscripts.js"></script>
+</head>
+<body onload="percent_completed()">
+
+	<h1> To-Do List</h1>
+	<p style="text-align:right;" id="date"></p>
+	<hr>
+	
+	<p id="start">Enter a task:
+	<input id="enter" type="text" name="text" onchange="check(this.value) ">
+	<button id="button1" onclick="document.getElementById('demo').innerHTML=display()">Add</button></p>
+
+	
+	<p id="demo"></p>
+	<button onclick="percent_completed()">Status</button>
+	<p id="modify"></p>
+	<p id="done">Total no. of tasks to be completed:<span id="no"></span><br><span id="per"></span> Work completed! </p>
+
+	
+
+</body>
+</html>

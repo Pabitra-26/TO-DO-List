@@ -1,0 +1,44 @@
+body{
+	background-color: black;
+}
+h1{
+	text-align: center;
+	color: #E91E63;
+	font-size: 35px;
+}
+#start{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+button{
+	border-radius: 16px;
+	background-color: #E91E63;
+	color: black;
+	font-size:12px;
+	font-weight: bold;
+	padding: 5px;
+	border-color:  #E91E63;
+}
+#demo{
+	color: white;
+	font-size:20px;
+	text-align: center;
+	font-family: courier;
+	
+}
+#align{
+	list-style-type: none;
+}
+#enter{
+	border-radius: 12px;
+	padding: 5px;
+}
+#done{
+	color: white;
+	font-size: 15px;
+}
+#date{
+	color: white;
+	font-size: 15px;
+}
